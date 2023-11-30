@@ -17,6 +17,7 @@ public class Admin_EditDashboard_to_AllRestaurants_Intigration_Test extends Admi
 	public void admin_Add_Edit_Menu() throws Throwable {
 
 		//click on to Restaurant link
+		System.out.println("Entering the script");
 		Admin_Dashboard_page adp = new Admin_Dashboard_page(driver);
 		WebdriverUtilities w = new WebdriverUtilities();
 		WebElement element = adp.getAddRestaurantLink();
