@@ -20,7 +20,7 @@ public class Admin_Dashboard_page {
 	@FindBy(xpath = "//a[.='Add Category']")
 	private WebElement AddCategoryLink;
 
-	@FindBy(xpath = "//a[.='Add Restaurant']")
+	@FindBy(xpath = "//a[contains(text(),'Add Restaurant')]")
 	private WebElement AddRestaurantLink;
 
 	@FindBy(xpath = "//span[.='Menu']")
