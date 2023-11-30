@@ -1,9 +1,12 @@
 package com.HangarMantra_TestScript_BASSCLASS;
 
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import com.GenricUtilities.Admin_Bass_Class;
 import com.GenricUtilities.IpathConstants;
+import com.GenricUtilities.WebdriverUtilities;
+
 import PageObjectRepo.Admin_Add_Restaurant_Page;
 import PageObjectRepo.Admin_Dashboard_page;
 import PageObjectRepo.Admin_Edit_Restaurant_Page;
@@ -15,6 +18,9 @@ public class Admin_EditDashboard_to_AllRestaurants_Intigration_Test extends Admi
 
 		//click on to Restaurant link
 		Admin_Dashboard_page adp = new Admin_Dashboard_page(driver);
+		WebdriverUtilities w = new WebdriverUtilities();
+		WebElement element = adp.getAddRestaurantLink();
+		w.WaitUntilElementToBeClickable(driver, 50, element);
 		adp.getRestaurantLink().click();
 		adp.getAddRestaurantLink().click();
 		

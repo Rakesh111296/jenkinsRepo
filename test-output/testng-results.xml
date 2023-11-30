@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-30T16:33:24 IST" name="Default suite" finished-at="2023-11-30T16:33:42 IST" duration-ms="18250">
+    <groups>
+    </groups>
+    <test started-at="2023-11-30T16:33:24 IST" name="Default test" finished-at="2023-11-30T16:33:42 IST" duration-ms="18250">
+      <class name="com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test">
+        <test-method is-config="true" signature="confif_BS()[pri:0, instance:com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test@3c77d488]" started-at="2023-11-30T16:33:24 IST" name="confif_BS" finished-at="2023-11-30T16:33:24 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confif_BS -->
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test@3c77d488]" started-at="2023-11-30T16:33:24 IST" name="config_BC" finished-at="2023-11-30T16:33:28 IST" duration-ms="3516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test@3c77d488]" started-at="2023-11-30T16:33:28 IST" name="config_BM" finished-at="2023-11-30T16:33:28 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="admin_Add_Edit_Menu()[pri:0, instance:com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test@3c77d488]" started-at="2023-11-30T16:33:28 IST" name="admin_Add_Edit_Menu" finished-at="2023-11-30T16:33:41 IST" duration-ms="12963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admin_Add_Edit_Menu -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test@3c77d488]" started-at="2023-11-30T16:33:41 IST" name="config_AM" finished-at="2023-11-30T16:33:42 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test@3c77d488]" started-at="2023-11-30T16:33:42 IST" name="config_AC" finished-at="2023-11-30T16:33:42 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+        <test-method is-config="true" signature="config_AS()[pri:0, instance:com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test@3c77d488]" started-at="2023-11-30T16:33:42 IST" name="config_AS" finished-at="2023-11-30T16:33:42 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AS -->
+      </class> <!-- com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
