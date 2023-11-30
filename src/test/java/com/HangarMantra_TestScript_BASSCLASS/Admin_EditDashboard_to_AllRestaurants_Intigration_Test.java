@@ -18,6 +18,7 @@ public class Admin_EditDashboard_to_AllRestaurants_Intigration_Test extends Admi
 
 		//click on to Restaurant link
 		System.out.println("Entering the script");
+		
 		Admin_Dashboard_page adp = new Admin_Dashboard_page(driver);
 		WebdriverUtilities w = new WebdriverUtilities();
 		WebElement element = adp.getAddRestaurantLink();

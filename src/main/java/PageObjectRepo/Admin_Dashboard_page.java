@@ -11,10 +11,10 @@ public class Admin_Dashboard_page {
 	@FindBy(xpath = "//span[.='Users']")
 	private WebElement UsersLink;
 
-	@FindBy(xpath = "//span[.='Restaurant']")
+	@FindBy(xpath = "//span[contains(text(),'Restaurant')]")
 	private WebElement RestaurantLink;
 
-	@FindBy(xpath = "//a[.='All Restaurants']")
+	@FindBy(xpath = "//a[contains(text(),'All Restaurant')]")
 	private WebElement AllRestaurantLink;
 
 	@FindBy(xpath = "//a[.='Add Category']")
